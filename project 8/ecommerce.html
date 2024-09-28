@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4">
+        <div class="container mx-auto flex justify-between">
+            <h1 class="text-xl font-bold">E-Commerce</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-gray-600 hover:text-blue-600">Home</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-600">Shop</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-600">Cart</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mx-auto mt-8 p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="https://via.placeholder.com/300" alt="Product 1" class="w-full">
+            <div class="p-4">
+                <h2 class="text-xl font-bold">Product 1</h2>
+                <p class="text-gray-600">$29.99</p>
+                <button class="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="https://via.placeholder.com/300" alt="Product 2" class="w-full">
+            <div class="p-4">
+                <h2 class="text-xl font-bold">Product 2</h2>
+                <p class="text-gray-600">$49.99</p>
+                <button class="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="https://via.placeholder.com/300" alt="Product 3" class="w-full">
+            <div class="p-4">
+                <h2 class="text-xl font-bold">Product 3</h2>
+                <p class="text-gray-600">$19.99</p>
+                <button class="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300">Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
